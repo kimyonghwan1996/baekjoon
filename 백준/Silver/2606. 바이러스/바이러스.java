@@ -1,5 +1,4 @@
 
-
 import java.util.Collections;
 import java.util.Iterator;
 import java.util.LinkedList;
@@ -7,58 +6,6 @@ import java.util.Queue;
 import java.util.Scanner;
 
 public class Main {
-    // public static void main(String[] args) {
-    //     Scanner sc = new Scanner(System.in);
-
-    //     int n = sc.nextInt();
-    //     //노드 수
-    //     int m = sc.nextInt();
-    //     int v = 1;
-    //     boolean[] visited = new boolean[n+1];
-
-    //     LinkedList<Integer>[] adjList = new LinkedList[n + 1];
-
-        
-    //     for (int i = 0; i <= n; i++) {
-    //         adjList[i] = new LinkedList<Integer>();
-    //     }
-
-    //     int[][] graph = new int[m][2];
-    //     for(int i = 1; i < m; i ++){
-    //         graph[i][0] = sc.nextInt();
-    //         graph[i][1] = sc.nextInt();
-    //     }
-    //     System.out.println(bfs(1, graph, visited));
-    // }
-
-    // static String bfs(int start, int[][] graph, boolean[] visited) {
-	// 	// 탐색 순서를 출력하기 위한 용도
-	// 	StringBuilder sb = new StringBuilder();
-	// 	// BFS에 사용할 큐를 생성해줍니다.
-	// 	Queue<Integer> q = new LinkedList<Integer>();
-		 
-	// 	// 큐에 BFS를 시작 할 노드 번호를 넣어줍니다.
-	// 	q.offer(start);
-		
-	// 	// 시작노드 방문처리
-	// 	visited[start] = true;
-		
-	// 	// 큐가 빌 때까지 반복
-	// 	while(!q.isEmpty()) {
-	// 		int nodeIndex = q.poll();
-	// 		sb.append(nodeIndex + " -> ");
-	// 		//큐에서 꺼낸 노드와 연결된 노드들 체크
-	// 		for(int i = 0; i < graph.length; i++) {
-    //             if(graph[nodeIndex][i] != 0 && !visited[i]) {
-    //                 visited[i] = true;
-    //                 q.offer(i);
-    //             }
-    //         }
-	// 	}
-	// 	// 탐색순서 리턴
-	// 	return sb.toString() ;
-	// }
-
     public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 
